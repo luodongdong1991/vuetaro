@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import './app.scss'
+//ui的公用样式
+import 'taro-ui-vue/dist/style/index.scss' 
 const App = new Vue({
   onShow (options) {
   },

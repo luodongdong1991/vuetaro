@@ -10,7 +10,12 @@
 
 <script>
 // 按需引入, 更小的应用体积//引入
-import { AtButton, AtToast, AtNoticebar } from "taro-ui-vue";
+import { 
+  AtIcon, 
+  AtButton, 
+  AtToast,
+  AtNoticebar, 
+} from "taro-ui-vue";
 import "taro-ui-vue/dist/style/components/button.scss";
 import "taro-ui-vue/dist/style/components/toast.scss";
 import "taro-ui-vue/dist/style/components/noticebar.scss";
@@ -18,6 +23,7 @@ import "./index.scss";
 export default {
   components: {
     //注册
+    AtIcon,
     AtButton,
     AtToast,
     AtNoticebar,
